@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": false,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noEmit": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "target": "ESNext"
+  },
+  "include": [
+    "*.tsx",
+    "about/**/*.tsx",
+    "app/**/*.tsx",
+    "contact/**/*.tsx",
+    "education/**/*.tsx",
+    "hobbies/**/*.tsx",
+    "src/**/*.jsx"
+  ]
+}
